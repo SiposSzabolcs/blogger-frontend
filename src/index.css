@@ -1,0 +1,84 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+/* layout */
+:root {
+  --primary: #1aac83;
+  --error: #e7195a;
+}
+
+body {
+  background: rgb(252, 236, 207);
+  margin: 0;
+  font-family: "Poppins";
+}
+
+header {
+  background: #fff;
+}
+
+header .container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+header .container span {
+  background-color: var(--primary);
+  padding: 8px;
+  user-select: none;
+  cursor: pointer;
+}
+
+header a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.pages {
+  max-width: 1400px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.blog-details {
+  position: relative;
+  padding: 8px;
+  margin: 20px;
+  margin-left: 0px;
+  max-width: 900px;
+  background-color: whitesmoke;
+}
+
+.delete-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.blog-details h4 {
+  color: var(--primary);
+  padding: 8px;
+}
+
+.blog-details .author {
+  color: hsl(0, 0%, 63%);
+}
+
+.blog-details header {
+  text-align: center;
+  font-size: 1.3em;
+  background-color: rgb(252, 239, 215);
+}
+
+.blog-details .content {
+  text-align: center;
+}
+
+.blog-details footer {
+  display: flex;
+  justify-content: space-between;
+}
